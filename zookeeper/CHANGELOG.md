@@ -2,6 +2,18 @@
 
 This file is used to list changes made in each version of zookeeper.
 
+## v8.0.1
+
+### Fixes
+
+* Correct missed change of `user` to `username` in SysV script template (#189 h/t @d601)
+
+## v8.0.0
+
+### Potentially Breaking
+
+* Loosen dependencies’ pins to all be `>=`, (#187 #188 h/t @Stromweld)
+
 ## v7.1.1
 
 ### Fixes
