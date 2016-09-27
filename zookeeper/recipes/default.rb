@@ -18,6 +18,8 @@
 Chef::Log.warn 'Recipes included with this cookbook are deprecated, ' \
                'and will be removed in a future release.'
 
+Chef::Log.level = :debug
+
 # download and install base package
 include_recipe 'zookeeper::install'
 
